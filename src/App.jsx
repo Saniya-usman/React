@@ -3,6 +3,7 @@ import Student from './Student';
 import Counter from './Counter';
 import Lists_keys from './Lists_keys';
 import HandleEvent from './HandleEvent';
+import InputFocus from './InputFocus';
 function App() {
   const name = "saniya";
   return (
@@ -13,7 +14,7 @@ function App() {
     <Student name="Saniya"/>
     <Counter/>
     <Lists_keys/>
-    <HandleEvent/>
+    <InputFocus/>
     </>
   )
 }
